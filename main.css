@@ -1,3 +1,8 @@
 html {
-    background:rosybrown;
+    background-color:teal;
 }
+
+nav img {
+    filter: drop-shadow(15px 5px 4px black);
+}
+
