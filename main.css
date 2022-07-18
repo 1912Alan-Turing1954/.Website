@@ -4,5 +4,24 @@ html {
 
 nav img {
     filter: drop-shadow(15px 5px 4px black);
+    transition: transform .2s;
 }
 
+nav img:hover {
+    transform: scale(0.80);
+}
+
+figcaption {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+p {
+    font-size: large;
+}
