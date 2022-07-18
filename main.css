@@ -24,4 +24,14 @@ figcaption {
 
 p {
     font-size: large;
+    border-bottom: 1px solid black;
+    width: 30%;
+}
+
+head {
+    background-color: black;
+}
+
+.tittle {
+    font-size: x-large;
 }
