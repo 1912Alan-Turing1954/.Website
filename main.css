@@ -8,7 +8,7 @@ nav img {
 }
 
 nav img:hover {
-    transform: scale(0.80);
+    transform: scale(1.10);
 }
 
 figcaption {
@@ -34,4 +34,8 @@ head {
 
 .tittle {
     font-size: x-large;
+    position: fixed;
+    background-color: darkgray;
+    z-index: 10;
+    width: 100%;
 }
