@@ -1,11 +1,62 @@
 html {
-    background-color: teal;
+    background-color: darkslategray;
+    padding-bottom: 50px;
 }
 
 p {
+    font-size: x-large;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+
+div.tittle {
+    font-size: x-large;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 1%;
+    text-shadow: 2px 2px 0 rgb( 0, 0, 0, .25);
+}
+
+.crest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 550px;
+    height: 550px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.navbar {
+    background-color: darkslategray;  
+    position: top;  
+    left: 0;  
+    right: 0;
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;
+    box-shadow: 0 0 30px 0 black;  
     font-size: larger;
 }
 
-div {
-    font-size: larger;
+.navbar a {
+    display: inline; 
+    margin: 20px; 
+    color: black;
+    text-shadow: 2px 2px 0 rgb( 0, 0, 0, .25);
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+.navbar a:active {
+    color: midnightblue;
 }
