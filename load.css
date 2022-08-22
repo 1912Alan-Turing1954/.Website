@@ -4,7 +4,7 @@ html {
 
 .loader {
     border: 16px solid grey; /* Light grey */
-    border-top: 16px solid black; /* Blue */
+    border-top: 16px solid black; /* grey */
     border-radius: 50%;
     width: 100px;
     height: 100px;

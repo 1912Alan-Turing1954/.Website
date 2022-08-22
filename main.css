@@ -1,5 +1,5 @@
 html {
-    background-color: darkslategray;
+    background-color: lightgrey;
     padding-bottom: 50px;
 }
 
@@ -55,12 +55,12 @@ a {
 }
 
 .navbar {
-    background-color: darkslategray;  
+    background-color: lightgrey;  
     position: top;  
     left: 0;  
     right: 0;
     top: 5px;  
-    height: 30px;  
+    width: 100%;  
     display: flex;  
     align-items: center;
     box-shadow: 0 0 30px 0 black;  
@@ -99,6 +99,7 @@ a {
 
 .profile p {
     border-bottom: 1px solid black;
+    border-radius: 20%;
     width: 22%;
     font-weight: bold;
     font-size: x-large;
@@ -110,5 +111,15 @@ a {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1%;
+    text-shadow: 2px 3px 0 rgba(0,0,0,.25);
+    border-radius: 10%;
+}
+
+.figcaption {
+    border-bottom: 1px solid black;
+    border-radius: 20%;
+    width: 22%;
+    font-weight: bold;
+    font-size: x-large;
     text-shadow: 2px 3px 0 rgba(0,0,0,.25);
 }
