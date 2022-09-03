@@ -84,7 +84,6 @@ a {
 .profile img {
     filter: drop-shadow(15px 5px 4px black);
     transition: transform .2s;
-
 }
 
 .profile img:hover {
